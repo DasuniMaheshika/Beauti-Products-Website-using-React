@@ -1,0 +1,111 @@
+export const AllProducts = [
+    {
+        id: '1',
+        image: 'https://www.kapruka.com/cdn-cgi/image/width=700,quality=93,f=auto/shops/specialGifts/additionalImages/large/165708337513519_37.jpg',
+        title: 'Luv Esence body mist',
+        price: 'Rs.2000',
+    },
+    {
+        id: '1',
+        image: 'https://www.kapruka.com/cdn-cgi/image/width=228,quality=93,f=auto/shops/specialGifts/productImages/165708337513536_61.jpg',
+        title: 'Luv Esence face cream',
+        price: 'Rs.1600',
+    },
+    {
+        id: '1',
+        image: 'https://www.kapruka.com/cdn-cgi/image/width=228,quality=93,f=auto/shops/specialGifts/productImages/165708337513533_59.jpg',
+        title: 'Luv Esence face cream',
+        price: 'Rs.1550',
+    },
+    {
+        id: '1',
+        image: 'https://www.kapruka.com/cdn-cgi/image/width=228,quality=93,f=auto/shops/specialGifts/productImages/165708337513514_27.jpg',
+        title: 'Luv Esence body lotion',
+        price: 'Rs.3200',
+    },
+    {
+        id: '1',
+        image: 'https://www.kapruka.com/cdn-cgi/image/width=228,quality=93,f=auto/shops/specialGifts/productImages/165708337513524_15.jpg',
+        title: 'Luv Esence body lotion',
+        price: 'Rs.3150',
+    },
+    {
+        id: '2',
+        image: 'https://i.pinimg.com/originals/95/cf/9a/95cf9ac93c744a528545ec5bc739bfc9.jpg',
+        title: '4rever face cream',
+        price: 'Rs.700',
+    },
+    {
+        id: '2',
+        image: 'https://tse3.mm.bing.net/th?id=OIP.I64mwDh5WOggBwpdaErmswAAAA&pid=Api&P=0&h=180',
+        title: '4rever face cream',
+        price: 'Rs.650',
+    },
+    {
+        id: '2',
+        image: 'https://objectstorage.ap-mumbai-1.oraclecloud.com/n/softlogicbicloud/b/cdn/o/products/120342--01--1630434795.jpeg',
+        title: '4rever body lotion',
+        price: 'Rs.900',
+    },
+    {
+        id: '2',
+        image: 'https://objectstorage.ap-mumbai-1.oraclecloud.com/n/softlogicbicloud/b/cdn/o/products/120341--01--1630434794.jpeg',
+        title: '4rever body lotion',
+        price: 'Rs.900',
+    },
+    {
+        id: '3',
+        image: 'https://janet.lk/wp-content/uploads/2021/11/Post-4-300x300.jpg',
+        title: 'Janet body lotion',
+        price: 'Rs.1200',
+    },
+    {
+        id: '3',
+        image: 'https://janet.lk/wp-content/uploads/2021/11/Screenshot_20201031-184758_Facebook-300x300.jpg',
+        title: 'Janet body lotion',
+        price: 'Rs.1300',
+    },
+    {
+        id: '3',
+        image: 'https://janet.lk/wp-content/uploads/2022/07/Toner-1-300x300.jpg',
+        title: 'Janet body mist',
+        price: 'Rs.600',
+    },
+    {
+        id: '3',
+        image: 'https://janet.lk/wp-content/uploads/2023/04/1.png',
+        title: 'Janet body mist',
+        price: 'Rs.700',
+    },
+    {
+        id: '4',
+        image: 'https://tse4.mm.bing.net/th?id=OIP.3vNI-sg5hbsaOy107vQK6wAAAA&pid=Api&P=0&h=180',
+        title: 'Dr-Rashel face cream',
+        price: 'Rs.3300',
+    },
+    {
+        id: '4',
+        image: 'https://shopee.lk/wp-content/uploads/2021/08/148-1.jpg',
+        title: 'Dr-Rashel face cream',
+        price: 'Rs.3100',
+    },
+    {
+        id: '4',
+        image: 'https://cdn.shopify.com/s/files/1/1833/6907/products/Dr.RashelVitaminCBrighteningAndAnti-AgingFacialCleanser80g_grande.jpg?v=1610217066',
+        title: 'Dr-Rashel face wash',
+        price: 'Rs.1250',
+    },
+    {
+        id: '4',
+        image: 'https://cdn.shopify.com/s/files/1/1833/6907/products/Dr.RashelWhiteningFadeCleanser80ml_grande.jpg?v=1617170581',
+        title: 'Dr-Rashel face wash',
+        price: 'Rs.1320',
+    },
+    {
+        id: '4',
+        image: 'https://cdn.shopify.com/s/files/1/1833/6907/products/DrRashelGreenTeaSoothingGel99_300G_large.jpg?v=1632313562',
+        title: 'Dr-Rashel body lotion',
+        price: 'Rs.2700',
+    },
+]
+
