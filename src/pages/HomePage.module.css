@@ -1,0 +1,22 @@
+.homeContainer{
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url('https://png.pngtree.com/back_origin_pic/04/28/78/fcd227c7b12a32e361d00934a442b0c1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    background-blend-mode: overlay;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.homePara1 {
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(6, 23, 24);
+    align-items: center;
+}

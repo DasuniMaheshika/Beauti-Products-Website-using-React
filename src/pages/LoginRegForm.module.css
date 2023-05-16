@@ -1,0 +1,69 @@
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+    text-align: center;
+    padding: 20px 20px 10px 20px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #535353;
+    text-align: left;
+    border-style: none none none none;
+    width: 30%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.loginRegInput {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    align-items: center;
+    text-align: left;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.loginRegBtn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: #04AA6D;
+    color: white;
+    height: 40px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 30%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.loginRegBtn:hover {
+    opacity: 0.8;
+}
+
+.newaccount {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.createNew {
+    color: #04AA6D;
+}
+
+.loginAgain {
+    color: #04AA6D;
+}
