@@ -47,8 +47,6 @@ a {
 .navigation a:hover , li:hover {
     color: rgb(15, 13, 13);
     background-color: #ddd;
-    /* height: 3rem;
-    align-items: center; */
 }
 
 .dropdown {

@@ -4,9 +4,7 @@ import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 import HomePage from "./pages/HomePage";
 import ShopAllPage from "./pages/ShopAllPage";
-import BrandsPage from "./pages/BrandsPage";
-import OffersFreeGiftPage from "./pages/OffersFreeGiftPage";
-import OffersBundlePage from "./pages/OffersBundlePage";
+import Offers from "./pages/Offers";
 import LoginPage from "./pages/LoginPage";
 import Cart from "./pages/Cart";
 import RegisterPage from "./pages/RegisterPage";
@@ -28,16 +26,8 @@ function App() {
           <ShopAllPage />
         </Route>
 
-        <Route path="/brands">
-          <BrandsPage />
-        </Route>
-
-        <Route path="/offers-free-gift">
-          <OffersFreeGiftPage />
-        </Route>
-
-        <Route path="/offers-bundle">
-          <OffersBundlePage />
+        <Route path="/offers">
+          <Offers />
         </Route>
 
         <Route path="/cart">
