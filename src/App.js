@@ -4,9 +4,7 @@ import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 import HomePage from "./pages/HomePage";
 import ShopAllPage from "./pages/ShopAllPage";
-import Offers from "./pages/Offers";
 import LoginPage from "./pages/LoginPage";
-import Cart from "./pages/Cart";
 import RegisterPage from "./pages/RegisterPage";
 
 function App() {
@@ -24,14 +22,6 @@ function App() {
 
         <Route path="/shop-all">
           <ShopAllPage />
-        </Route>
-
-        <Route path="/offers">
-          <Offers />
-        </Route>
-
-        <Route path="/cart">
-          <Cart />
         </Route>
 
         <Route path="/login">
