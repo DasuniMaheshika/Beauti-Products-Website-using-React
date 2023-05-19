@@ -29,3 +29,8 @@ GlowZone is a simple frontend project for the cosmatic items sales.
 <div align="center">
   <img src="./src/img/screencapture-localhost-3000-shop-all-2023-05-18-21_29_35.png" alt="interface" width="800" style="margin-right: 20px"/>
 </div>
+
+* When filter the products,
+<div align="center">
+  <img src="./src/img/screencapture-localhost-3001-offers-free-gift-2023-05-19-13_09_42.png" alt="interface" width="800" style="margin-right: 20px"/>
+</div>

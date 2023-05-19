@@ -3,7 +3,7 @@ import MainNavigation from "./components/layout/MainNavigation";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 import HomePage from "./pages/HomePage";
-import ShopAllPage from "./pages/ShopAllPage";
+//import ShopAllPage from "./pages/ShopAllPage";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 
@@ -20,9 +20,9 @@ function App() {
           <HomePage />
         </Route>
 
-        <Route path="/shop-all">
+        {/* <Route path="/shop-all">
           <ShopAllPage />
-        </Route>
+        </Route> */}
 
         <Route path="/login">
           <LoginPage />
