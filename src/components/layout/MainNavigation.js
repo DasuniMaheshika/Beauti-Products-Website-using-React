@@ -62,7 +62,7 @@ function MainNavigation() {
                 onChange={handleProductChange}
                 className={classes.dropdownContent}
               >
-                <option value="">All</option>
+              
                 {uniqueIds.map((name) => (
                   <option key={name} value={name}>
                     {name}
