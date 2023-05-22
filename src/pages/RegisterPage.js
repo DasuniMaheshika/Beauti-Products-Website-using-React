@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import classes from './LoginRegForm.module.css'
 
 const RegisterPage = () => {
-  const history = useNavigate();
+  const navigate = useNavigate();
 
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -24,7 +24,7 @@ const RegisterPage = () => {
       users.push(newUser);
       localStorage.setItem("users", JSON.stringify(users));
       alert("Registered successfully!");
-      history.push("/login");
+      navigate("/login");
     }
   };
 
