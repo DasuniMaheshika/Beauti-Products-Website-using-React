@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import classes from "./LoginRegForm.module.css";
 
 const LoginPage = () => {
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -16,12 +16,13 @@ const LoginPage = () => {
     );
     if (user) {
       alert("Logged in successfully!");
-      history.push("/");
+      navigate("/");
     } else {
       setErrorMessage("Invalid email or password");
       alert(errorMessage);
     }
   };
+  
 
   return (
     <div className={classes.container}>

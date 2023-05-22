@@ -12,7 +12,7 @@ const Card = ({ filterFinal }) => {
                 filterFinal.map((card, index) => (
 
                     <div className={classes.cardComponent} key={`${card.id}-${index}`}>
-                        {console.log("rendering")}
+                        {console.log("card rendering")}
                         <div>
                             <img src={card.image} alt={card.title} className={classes.cardImg} />
                             <p className={classes.cardTitle}>{card.title}</p>
